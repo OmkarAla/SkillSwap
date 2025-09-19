@@ -1,0 +1,12 @@
+SkillSwap Project: Full Idea
+SkillSwap is a peer-to-peer skill exchange platform where users can:
+
+Register/Login: Create accounts and authenticate.
+Manage Profiles: Specify skills they offer (e.g., guitar lessons) and seek (e.g., cooking tips).
+Find Matches: Discover users with complementary skills (e.g., offers what you seek, seeks what you offer).
+Schedule Sessions: Arrange skill exchange sessions, synced with Google Calendar.
+Rate Users: Provide feedback to build trust.
+
+The single users collection in MongoDB Atlas stores all user data 
+(email, password, offers, seeks, sessions, ratings), leveraging MongoDB’s NoSQL flexibility. 
+The MERN stack powers the application, with MongoDB for VS Code for database management.
