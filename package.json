@@ -1,12 +1,29 @@
 {
-  "dependencies": {
-    "animate.css": "^4.1.1",
-    "axios": "^1.12.2",
-    "react-router-dom": "^7.9.1"
+  "name": "skill-swap",
+  "version": "1.0.0",
+  "description": "A peer-to-peer skill exchange platform",
+  "main": "start-dev.js",
+  "scripts": {
+    "start": "node start-dev.js",
+    "dev": "node start-dev.js",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "build": "cd frontend && npm run build"
   },
+  "keywords": [
+    "skill-exchange",
+    "peer-to-peer",
+    "learning",
+    "teaching",
+    "community",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "SkillSwap Team",
+  "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.17"
+    "concurrently": "^8.2.2"
   }
 }
